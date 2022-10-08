@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #111;
+    --card-color: #eee;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--card-color);
+}
+
+header {
+    padding: 15px;
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+main {
+    flex: 1;
+}
